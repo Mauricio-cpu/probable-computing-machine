@@ -1,0 +1,66 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url(fontello.css);
+@import url(banner.css);
+@import url(menu.css);
+@import url(productos.css);
+@import url(footer.css);
+@import url(info.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #333;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+    margin: 10px 60px;
+}
+.logo{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    
+}
+header .contenedor{
+    display: table;
+}
+section{
+    width: 100%;
+    margin-bottom: 5%;
+}
+#mas100años{
+    text-align: center;
+    font-size: 1.3em;
+    width: 70%;
+    margin: auto;
+    }
+#mas100años h2{
+    font-size: 45px;
+    font-family: "Dancing Script";
+    font-style: italic;
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}

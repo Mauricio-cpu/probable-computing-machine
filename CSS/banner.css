@@ -1,0 +1,66 @@
+#banner{
+    margin-top: 60px;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAA, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    color: rgb(14, 37, 190);
+    font-size: 23px;
+    font-family: Impact;
+}
+#banner h2{
+    font-size: 28px;
+}
+#banner a{
+    display: block;
+    width: 90px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border: 3px solid #FFF;
+    font-size: 17px;
+}
+#banner a:hover{
+    background: rgba(14,37,190, .5);
+}
+
+@media (min-width: 480px){
+    #banner h2{
+        font-size: 40px;
+        }
+}
+@media (min-width: 780px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+    #banner img{
+        height: auto;
+        margin-top: -70px;
+    }
+    #banner .contenedor{
+        top: 85px;
+    }
+    #banner a{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1024px){
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+    #banner .contenedor{
+        top: 120px;
+    }
+}

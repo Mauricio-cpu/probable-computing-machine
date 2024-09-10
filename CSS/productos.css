@@ -1,0 +1,20 @@
+#productos h3, h4{
+    text-align: center;
+}
+#productos .contenedor{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#productos article{
+    margin: 25px;
+    }
+#productos img{
+    height: 180px;
+    max-width: 280px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 50%) .50;    
+}
+
+
